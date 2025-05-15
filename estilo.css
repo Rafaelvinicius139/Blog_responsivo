@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    font-family:"Montserrat";
+
+}
+
+
+header {
+    background-color:#02A28f;
+    color: white;
+    padding:15px;
+    height:50px;
+    font-size:1.25em;  
+    width:100%;
+}
+
+header h1{
+    margin-left:150px;
+  
+}
+#conteiner-foto{
+
+    width:90%;
+
+
+    
+}
+
+#fototopo{
+    background-image: linear-gradient(rgba(102, 102, 102, 0), rgba(0, 0, 0, 1)),  
+    url('imagens/topo.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:white;
+    border-radius:10px;
+    width:95%;
+    margin-top: 60px;
+    margin-left:130px ;
+
+   
+   
+    
+}
+
+#foto-texto{
+    padding: 10px;
+    padding-top:270px ;
+   
+    color: aliceblue;
+    font-size:20px;
+    
+}
+#foto-texto p{
+    font-size:1rem;
+    padding-left: 20px;
+    padding-bottom:8px;
+
+  
+}
+
+#foto-texto h2{
+    font-size:1.8125rem;
+    padding-left:16px;
+
+  
+}
+
+
+
+#poster-tela{
+
+    width:80%;
+    display:grid;
+}
+
+#poster{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap:20px;
+  
+
+    width:744px;
+}
+.cards{
+    width:360px;
+    
+    font-size:0.875rem;
+  
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius:10px;
+    margin-right:10px;
+
+}
+
+
+.titulo-poster{
+    text-align: center;
+    background-color:#02A28f;
+    font-size:0.8125rem;;
+ 
+    
+    padding:15px;
+    width:97%;
+    color:white;
+    margin-top:10px;
+    margin-bottom:1.9rem;
+  
+    border-radius:10px;
+    display:flex;
+    justify-content:space-between ;
+    align-items: center;
+
+
+}
+
+.titulo-poster{
+    width:360px
+
+}
+
+#conteiner-poster-recentes{
+    margin-left: 130px;
+   
+    width:744px;
+
+    text-align: left;
+}
+
+nav{
+  
+    width:90%;
+    margin-top: 50px;
+    
+}
+
+main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 30px;
+    padding: 10px;
+
+    margin:3px;
+  
+
+
+}
+
+.conteiner-pupular{
+    display:flex;
+    width:95%;
+    margin: auto;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius:15px;
+    margin-bottom:4px;
+   
+  
+}
+
+
+.imgs{
+    padding:15px;
+    padding-left:10px ;
+
+}
+
+.texto-postpopulares{
+
+    padding-top:15px;
+    font-size: 0.875em;
+   }
+
+   .texto-postpopulares p{
+
+    padding-top:4px;
+    font-size: 0.9375em;
+   }
+
+
+   #saude{
+    display:flex;
+    padding:10px;
+    width: 90%;
+    margin: auto;
+    font-size: 0.625em;
+    font-weight: 700;
+}
+
+#numero{
+    text-align:center;
+
+    width:10%;
+    text-align:right;
+    
+    padding:0.9375em;
+}
+
+#saude2{
+    text-align:left;
+   
+    width:90%;
+    padding-left:7px ;
+    padding-top: 10px;
+    color:#616161;
+    
+   
+}
+
+#saude p{
+    padding-bottom: 5px;
+ 
+   
+    width:50%;
+    padding-right:7px ;
+    padding-top: 10px;
+    font-size: 14px;
+   
+    
+}
+
+#numero p{
+    padding-bottom: 5px;
+    text-align:right;
+
+    
+    padding-left:7px ;
+    padding-top: 10px;
+    color:#616161;
+    
+}
+
+.textos{
+    color:#02A28f;
+ 
+}
+
+
+
+
+
+.imagem-textos{
+
+  
+    padding:10px;
+  
+
+}
+
+.imagem-textos p{
+   
+    padding-bottom: 10px;
+    padding-top:8px;
+    
+  
+}
+
+a{
+    color: white;
+    font-size:14px;
+}
+
+#titulo-poster2{
+    width:96%;
+    background-color:#02A28f; 
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding:15px;
+    margin-top:28px;
+    margin-bottom:10px;
+    border-radius:10px ;
+    align-items: center;
+    color: white;
+    
+
+
+    
+
+}
+
+    footer{
+        background-color: #02A28f;
+        padding:15px;
+        text-align: center;
+        color: white;
+        width:100%;
+    }
+
+
+
+    @media only screen and ((min-width:320px) and (max-width:1200px)) {
+   
+ 
+   
+        header {
+            background-color:#02A28f;
+            color: white;
+            
+            padding-top:1.5rem;
+            padding-bottom:10px;
+            font-size:29px;
+           
+            width:100%;
+           
+          
+           
+            
+            
+        }
+    
+        header h1{
+         
+    
+            font-size:29px;
+            font-weight:700;
+         
+         
+           
+         
+            
+        }  
+    
+        
+    
+        #conteiner-foto{
+    
+            width:100%;
+            padding-top:1.5625rem;
+            margin-bottom:20px;
+            
+            
+        }
+    
+        #fototopo{
+            background-image: linear-gradient(rgba(102, 102, 102, 0), rgba(0, 0, 0, 1)),  
+            url('imagens/topo.jpg');
+            background-repeat: no-repeat;
+            background-size:cover;
+            color:white;
+            border-radius:10px;
+            width:100%;
+            margin-top:1.25em;
+            margin:auto; 
+         
+    
+            
+           
+            
+        }
+    
+        #foto-texto{
+            padding: 10px;
+            padding-top:270px ;
+           
+            color: aliceblue;
+            font-size:1.5rem;
+        }
+        #conteiner-poster-recentes{
+    
+            width:100%;
+            padding-top:1.6px;
+            margin-left:0;
+            font-size:20px;
+          
+    
+         
+    
+    
+    
+        }
+    
+    
+        .titulo-poster{
+           display:flex;
+           justify-content: center;
+           
+            background-color:#02A28f;
+            font-size:20px;
+            
+            padding:20px;
+          
+            width:100%;
+            color: white;
+            margin-top:0,625rem;
+            margin-bottom:1.9rem;
+         
+            border-radius:10px;
+    
+         
+    
+            
+    
+        }
+    
+        #postagem{
+            background-color: aquamarine;
+        }
+    
+         nav{
+            position:30px;
+         }
+    
+        #poster{
+            margin:auto;
+         
+            width:100%;
+            grid-template-columns: repeat(1, 1fr); 
+        }
+        .cards{
+            margin:auto;
+            width:100%;
+            
+            margin-top:15px;  
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+            border-radius:10px;
+            padding-bottom:15px;
+            margin-bottom:20px;
+    
+           
+        }
+        .cards > p{
+    
+            padding:5px;
+            font-size:14px;
+            width:100%;
+    
+        }
+    
+        footer{
+            background-color: #02A28f;
+            padding:15px;
+            text-align: center;
+            color: white;
+            width:100%;
+        }
+    
+        .conteiner-pupular{
+            display:flex;
+            width:95%;
+            margin: auto;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+            border-radius:15px;
+            margin-bottom:10px;
+          
+        }
+    
+        .imgs{
+            padding:20px;
+            padding-left:40px ;
+    
+        }
+    
+        .texto-postpopulares{
+    
+         padding-top:30px;
+        }
+    
+        #saude{
+            display:flex;
+            padding:10px;
+            width: 90%;
+            margin: auto;
+        }
+    
+        #numero{
+            text-align:center;
+        
+            width:10%;
+            text-align:right;
+            padding:15px;
+        }
+        #saude2{
+            text-align:left;
+           
+            width:90%;
+            padding-left:7px ;
+            padding-top: 10px;
+            
+           
+        }
+    
+        #saude p{
+            padding-bottom: 5px;
+         
+           
+            width:50%;
+            padding-right:7px ;
+            padding-top: 10px;
+            
+        }
+    
+       
+    
+        
+        #numero p{
+            padding-bottom: 5px;
+            text-align:right;
+        
+            
+            padding-left:7px ;
+            padding-top: 10px;
+            
+        }
+    
+        .textos{
+            color:#02A28f;
+        }
+    
+        main{
+            width:100%;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr); 
+         
+      
+          
+          
+        
+        }
+    
+        #titulo-poster2{
+            width:100%;
+            background-color:#02A28f; 
+            display: flex;
+            justify-items: center;
+            justify-content: space-between;
+         
+            margin-top:5px;
+            margin-bottom:5px;
+           
+            border-radius:10px ;
+            align-items: center;
+            color: white;
+            
+        
+        
+            
+        
+        }
+    
+    
+        .imagem-textos{
+            padding:5px;
+    
+        }
+        nav{
+            width:98%;
+        }
+    
+        img{
+            width:100%;
+        }
+    
+        
+    
+    
+        
+    
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+    
+
+
